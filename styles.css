@@ -79,6 +79,8 @@ form ion-icon {
     background-color: rgba(52, 50, 50, 0.599);
     padding: 15px;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .item img {
@@ -90,14 +92,20 @@ form ion-icon {
 .item .flex-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between center;
+    text-align: center;
+}
+
+.flex-container {
+    justify-content: center;
 }
 
 .item .title {
     color: whitesmoke;
     margin: 20px 10px 0 0;
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .view-button {
@@ -112,6 +120,7 @@ form ion-icon {
     align-self: flex-start;
 }
 
+
 .item-data {
     color: whitesmoke;
     display: block;
@@ -119,4 +128,5 @@ form ion-icon {
     font-size: 1.4rem;
     letter-spacing: .05rem;
     line-height: 2rem;
+    text-align: center;
 }
